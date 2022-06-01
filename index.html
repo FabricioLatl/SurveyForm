@@ -24,7 +24,8 @@
         <label id= "number-label" for="number"> Age</label><br>
         <input id="number" type="number"><br>
 
-        <label for="role"> Which option best describes your current role?</label>
+        <label for="role"> Which option best describes your current role?</label><br>
+
         <select name="role" id="dropdown">
             <option  disabled selected> Select Current Role</option>
             <option value="Student" > Student</option>
@@ -32,7 +33,18 @@
             <option value=""> Full Time Learner</option>
             <option value=""> Prefer Not To Say</option>
             <option value=""> Other</option>
-        </select>
+        </select> 
+        <br>
+
+        <label id="recommendation-label" for="reccomendation">Would you recommend freeCodeCamp to a friend?</label><br>
+        <label id = "definetly-label" for = "definetly" >
+        <input type="radio" name="recommendation" id="definetly" checked="checked"> Definetly </label> <br>
+
+        <label id = "maybe-label" for = "Maybe">
+        <input type="radio" name="recommendation" id="maybe"> Maybe</label><br>
+
+        <label id="not-sure-label" for = "not-sure">
+        <input type="radio" name="recommendation" id="not-sure"> Not Sure</label><br>
     </div>
 </div>
 </body>
