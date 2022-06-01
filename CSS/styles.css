@@ -1,0 +1,13 @@
+body {
+ 
+    color: rgb(221, 221, 221);
+    background-color: rgb(37, 37, 117);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form{
+    background-color: rgb(36, 35, 35);
+    margin: 35%;
+    margin-top: 5%;
+    color: white;
+}
