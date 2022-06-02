@@ -18,29 +18,32 @@
 
     <div id = "form">
         <div id = "text">
-        <form id = "survey-form" action=""></form>
+        <form id = "survey-form" action="">
 
         <label id="name-label" for = "name">Name </label> <br>
         <input id ="name" type="text" placeholder="Enter your name" required> <br>
+        <br>
         
         <label id= "email-label" for = "email" aria-placeholder="Enter your email" > Email </label><br>
         <input id= "email" type="email" placeholder="number" required><br>
+        <br>
 
         <label id= "number-label" for="number"> Age</label><br>
-        <input id="number" type="number"><br>
+        <input id="number" type="number" placeholder="Age"><br>
+        <br>
 
-        <label for="role"> Which option best describes your current role?</label><br>
+        <label for="role"> Which option best describes your current role?</label> <br>
 
         <select name="role" id="dropdown">
             <option  disabled selected> Select Current Role</option>
             <option value="Student" > Student</option>
-            <option value="">Full Time Job</option>
-            <option value=""> Full Time Learner</option>
-            <option value=""> Prefer Not To Say</option>
-            <option value=""> Other</option>
+            <option value="fill-time-job">Full Time Job</option>
+            <option value="full-time-learner"> Full Time Learner</option>
+            <option value="prefer-not-to-say"> Prefer Not To Say</option>
+            <option value="other"> Other</option>
         </select> 
         <br>
-
+         <br>
         <label id="recommendation-label" for="reccomendation">Would you recommend freeCodeCamp to a friend?</label><br>
         <label id = "definetly-label" for = "definetly" >
         <input type="radio" name="recommendation" id="definetly" checked="checked"> Definetly </label> <br>
@@ -50,6 +53,7 @@
 
         <label id="not-sure-label" for = "not-sure">
         <input type="radio" name="recommendation" id="not-sure"> Not Sure</label><br>
+        <br>
 
         <label for="role"> What is your favorite feature of freeCodeCamp?</label><br>
 
@@ -60,59 +64,59 @@
             <option value="community"> Community</option>
             <option value="open-source"> Open Source</option>            
         </select> <br>
+        <br>
 
         <label for="role"> What would you like to see improved? (Check all that apply)</label><br>
 
-
+           
             <input type="checkbox" id="FEP" name="checkboxes" >
             <label for="FEP">Front-End Projects</label><br>
-
             
-            <input type="checkbox" id="BEP" name="checkboxes" >
+            <input type="checkbox" id="BEP" name="checkboxes" > 
             <label for="BEP">Back-End Projects</label><br>
-
-            
-            <input type="checkbox" id="DV" name="checkboxes" >
+                       
+            <input type="checkbox" id="DV" name="checkboxes" > 
             <label for="DV">Data Visualization</label><br>
-
-            
-            <input type="checkbox" id="challenges" name="checkboxes" >
+                     
+            <input type="checkbox" id="challenges" name="checkboxes" >  
             <label for="challenges">Challenges</label><br>
-
-            
-            <input type="checkbox" id="OSC" name="checkboxes" >
+                     
+            <input type="checkbox" id="OSC" name="checkboxes" > 
             <label for="OSC">Open Source Community</label><br>
-
-            
-            <input type="checkbox" id="GHR" name="checkboxes" >
+                      
+            <input type="checkbox" id="GHR" name="checkboxes" > 
             <label for="GHR">Gitter Help Rooms</label><br>
-
-            
+                      
             <input type="checkbox" id="Videos" name="checkboxes" >
             <label for="Videos">Videos</label><br>
-
+            
             
             <input type="checkbox" id="CM" name="checkboxes" >
             <label for="CM">City meetups</label><br>
-
             
             <input type="checkbox" id="wiki" name="checkboxes" >
             <label for="wiki">WIKI</label><br>
-
+            
             
             <input type="checkbox" id="Forum" name="checkboxes" >
             <label for="Forum">Forum</label><br>
-
-
+                        
             <input type="checkbox" id="AC" name="checkboxes" >
             <label for="AC">Additional Courses</label><br>
+            
+            
+            <br><br>
 
-            <p> Any comments or suggestions?</p>
-            <Textarea id = "comment" name = comments placeholder="Enter your comment here...">
+            <label> Any comments or suggestions?</label> <br>
+            <Textarea id = "comment" name = "comments" placeholder="Enter your comment here...">
 
             </Textarea> <br>
-            <button type = "submit" id = "submit" name = "submit"> Submit</button>
+
+
+            <input type = "submit" id = "submit" name = "submit" value = "submit">
+        </form>
         </div>
+    
 
 
     </div>
